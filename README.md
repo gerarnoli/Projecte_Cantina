@@ -1,6 +1,6 @@
 # Projecte_Cantina
 
-#Integrants Projecte
-*Gerard Arnan
-*Anastasia
-*Pedro Nieto
+# Integrants Projecte
+* Gerard Arnan
+* Anastasia
+* Pedro Nieto
