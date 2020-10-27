@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">    
+    <meta charset="UTF-8">        
     <title>Menu</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
 </head>
 <body>
 <?php include "header.php"; ?>  
-    <h1>Menu Cantina Pedralbes</h1>
+    <h4>Menu Cantina Pedralbes</h4>
 </body>
 <?php 
 include "footer.php";

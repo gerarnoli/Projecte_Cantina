@@ -4,6 +4,6 @@
     <meta charset="UTF-8">   
 </head>
 <body>
-    <p>Prova Header</p>
+    <h1>Cantina Pedralbes</h1>
 </body>
 </html>

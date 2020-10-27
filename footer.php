@@ -4,6 +4,6 @@
     <meta charset="UTF-8">   
 </head>
 <body>
-    <p>Prova Footer</p>
+    <p class="footer">Cantina Pedralbes per Arnau, Anastasia i Pedro</p>
 </body>
 </html>
