@@ -1,0 +1,9 @@
+PÀGINES DEL PROJECTE
+
+1- Portada
+
+2- Menú
+
+3- Formulari
+
+4- Confirmació
