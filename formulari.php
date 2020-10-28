@@ -1,7 +1,3 @@
-
-
-
-
 <html>
 <body>
     <div id="seleccio">
@@ -10,14 +6,7 @@
             <!-- <li>$POST['nom']</li> -->
         </ul>
     </div>
-</body>
-</html>
 
-
-
-
-<html>
-<body>
     <form action="process.php" method="POST"></form>
         <div id="form">
             <h2>Introdueix les teves dades</h2>
@@ -29,6 +18,7 @@
             <input type="text"><br><br>
         </div>
     </form>
+    
 </body>
 </html>
 
