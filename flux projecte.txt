@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PÀGINES DEL PROJECTE
 
 1- Portada
@@ -6,4 +7,14 @@ PÀGINES DEL PROJECTE
 
 3- Formulari
 
+=======
+PÀGINES DEL PROJECTE
+
+1- Portada
+
+2- Menú
+
+3- Formulari
+
+>>>>>>> 99cab4ceb358dd1ef2e6d21e839b591d7078cda7
 4- Confirmació
