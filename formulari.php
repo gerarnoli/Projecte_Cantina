@@ -2,8 +2,6 @@
 <body>
     <div id="seleccio">
         <h2>El teu carro</h2>
-        <ul>
-        </ul>
     </div>
 
     <form action="process.php" method="POST"></form>
@@ -19,9 +17,7 @@
     </form>
 
     <script>
-    
-        document.getElementById("").innerHTML = localStorage.setItem("");
-    
+        <script src="js/formulari.js"></script>    
     </script>
     
 </body>
