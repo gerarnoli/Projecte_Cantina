@@ -3,7 +3,6 @@
     <div id="seleccio">
         <h2>El teu carro</h2>
         <ul>
-            <!-- <li>$POST['nom']</li> -->
         </ul>
     </div>
 
@@ -18,6 +17,12 @@
             <input type="text"><br><br>
         </div>
     </form>
+
+    <script>
+    
+        document.getElementById("").innerHTML = localStorage.setItem("");
+    
+    </script>
     
 </body>
 </html>
