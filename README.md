@@ -4,3 +4,5 @@
 * Gerard Arnan
 * Anastasia
 * Pedro Nieto
+
+Utilizar LocalStorage para enviar Datos
