@@ -1,4 +1,4 @@
 
 
-document.getElementById("").innerHTML = localStorage.setItem("");
+document.getElementById("").innerHTML = localStorage.getItem("");
 
