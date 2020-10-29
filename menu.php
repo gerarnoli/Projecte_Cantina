@@ -4,6 +4,7 @@
     <meta charset="UTF-8">        
     <title>Menu</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/script.js"></script>
 
 </head>
 <body>
@@ -16,8 +17,7 @@
             <th>Items</th>
             <th>Preu</th>
             <th>Quantitat</th>
-            <th>Total</th>   
-            <th>{rova}</th>         
+            <th>Total</th>                   
         </tr>
     </thead>
     <tbody>
@@ -26,7 +26,7 @@
             <td class="goods"> <img src="" alt=""/><span> Bocata </span></td>
             <td class="price"> 20 </td>
             <td class="count"> <span class="reduce"> - </span>
-            <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>            
+            <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>            
                         
         </tr>
         <tr>            
@@ -49,7 +49,7 @@
         </tr>
     </tbody>
 </table>     
-    <script src="js/menu.js"></script>
+    
 </form>
 </body>
 <?php include "footer.php"; ?>
