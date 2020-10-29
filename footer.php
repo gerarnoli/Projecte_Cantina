@@ -1,1 +1,1 @@
-<div class="footer"><p>Cantina Pedralbes per Arnau, Anastasia i Pedro</p></div>
+<div class="footer"><p>Cantina Pedralbes per Gerard, Anastasia i Pedro</p></div>
