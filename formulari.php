@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulari</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
@@ -12,9 +12,7 @@
 
     <br>
 
-    <div id="seleccio">
-        <h2>El teu carro</h2>
-    </div>
+    <div id="seleccio"></div>
 
     <br><br>
 
@@ -30,9 +28,9 @@
         </form>
     </div>
 
-    <script>
-        <script src="js/formulari.js"></script>    
-    </script>
+
+    <script src="js/formulari.js"></script>    
+
 
     <br>
 
