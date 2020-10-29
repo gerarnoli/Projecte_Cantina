@@ -87,3 +87,9 @@ td {
     background-color: #fff;
     z-index: 2;
 }
+.price {
+    width: 130px;
+}
+.count {
+    width: 90px;
+}
