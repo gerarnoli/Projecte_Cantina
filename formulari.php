@@ -2,11 +2,13 @@
 <body>
     <?php include "header.php";?>
 
+    <br>
+
     <div id="seleccio">
         <h2>El teu carro</h2>
     </div>
 
-    <br><br><br>
+    <br><br>
 
     <div id="form">
         <form action="process.php" method="POST"></form>
