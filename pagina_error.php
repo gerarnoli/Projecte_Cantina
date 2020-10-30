@@ -12,7 +12,7 @@
     <br><br>
 
     <div class=error>
-        <?php if (isset($_COOKIE)) {echo "<h2>Ja has fet una comanda avui, torna demà :-)</h2>";} ?>
+        <?php if (isset($_COOKIE)) {echo "<h3>Ja has fet una comanda avui, torna demà :-)</h3>";} ?>
     </div>
 
 

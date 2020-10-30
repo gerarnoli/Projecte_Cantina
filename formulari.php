@@ -10,21 +10,23 @@
     <?php $_SESSION["pantalla"] = 3; ?>
     <?php include "header.php";?>
     <br>
-    <div class="seleccio">
-        <h2>Llista de comandes<h2>
-    </div>
-    <br><br>
-    <div class="form">
-        <form action="process.php" method="POST"></form>
-                <h2>Introdueix les teves dades</h2>
-                <label for="nom">Nom:</label>
-                <input type="text"><br><br>
-                <label for="cognom">Cognom:</label>
-                <input type="text"><br><br>
-                <label for="email">Email:</label>
-                <input type="text"><br><br>
-        </form>
-        <button id="enviar">Enviar</button>
+    <div class="container">
+        <div class="seleccio">
+            <h2>Llista de comandes<h2>
+        </div>
+        <div class="form">
+            <form action="process.php" method="POST"></form>
+                    <h2>Introdueix les teves dades</h2>
+                    <label for="nom">Nom:</label>
+                    <input type="text"><br><br>
+                    <label for="cognom">Cognom:</label>
+                    <input type="text"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="text"><br><br>
+            </form>
+            <br>
+            <button onclick="location.href='verificacio.php'">Enviar</button>
+        </div>
     </div>
     <script src="js/formulari.js"></script>    
     <br>

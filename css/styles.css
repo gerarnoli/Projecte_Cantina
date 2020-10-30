@@ -94,6 +94,14 @@ td {
     width: 90px;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-column-gap: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
 .error {
     background-color: lightblue;
     margin-right: 1400px;
@@ -101,11 +109,14 @@ td {
 
 .seleccio {
     color: black;
+    border-style: solid;
+    padding: 20px;
 }
 
 .form {
     border-style: solid;
-    margin-right: 1500px;
+    padding: 20px;
+    overflow: hidden;
 }
 
 
