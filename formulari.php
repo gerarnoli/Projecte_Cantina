@@ -24,7 +24,6 @@
                 <label for="email">Email:</label>
                 <input type="text"><br><br>
         </form>
-        <input>Enviar</input>
         <button id="enviar">Enviar</button>
     </div>
     <script src="js/formulari.js"></script>    

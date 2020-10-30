@@ -7,6 +7,3 @@ for (let i=0; i<comandes.length; i++){
 }
 llista_comandes+='</ul>';
 
-
-
-
