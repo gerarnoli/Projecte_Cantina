@@ -7,19 +7,12 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
+    <?php $_SESSION["pantalla"] = 5; ?>
     <?php include "header.php"; ?>
-        
-    <br><br>
-
     <div class=error>
-        <?php if (isset($_COOKIE)) {echo "<h3>Ja has fet una comanda avui, torna demà :-)</h3>";} ?>
+        <center><?php if (isset($_COOKIE)) {echo "<h3>Ja has fet una comanda avui, torna demà :-)</h3>";} ?></center>
     </div>
-
-
-    <br><br><br>
-
     <?php include "footer.php";?>
-
 </body>
 </html>
 
