@@ -12,11 +12,11 @@
 
 </head>
 
-<body>
+<body class="background">
     <?php include("header.php") ?>
 
-    <div class="container">
-        <h2>Cantina Pedralbes</h2>
+    <h2 id="benvingut">Benvingut a la Cantina Pedralbes</h2>
+    <div class="container2">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -28,9 +28,9 @@
             <!--slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="images/foto1.jpg" alt="comida" style="width:100%;">
+                    <img src="images/foto4.jpg" alt="comida" style="width:100%;">
                     <div class="carousel-caption">
-                        <h3>Salats</h3>
+                        <h3>Precios</h3>
                     </div>
                 </div>
 
