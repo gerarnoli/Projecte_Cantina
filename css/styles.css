@@ -95,10 +95,18 @@ td {
 }
 
 .error {
-    color: darkblue;
+    background-color: lightblue;
+    margin-right: 1400px;
 }
 
+.seleccio {
+    color: black;
+}
 
+.form {
+    border-style: solid;
+    margin-right: 1500px;
+}
 
 
 
