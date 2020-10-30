@@ -11,7 +11,10 @@
         
     <br><br>
 
-    <?php if (isset($_COOKIE)) {echo "Ja has fet una comanda avui, torna demà :-)";} ?>
+    <div class=error>
+        <?php if (isset($_COOKIE)) {echo "<h2>Ja has fet una comanda avui, torna demà :-)</h2>";} ?>
+    </div>
+
 
     <br><br><br>
 
