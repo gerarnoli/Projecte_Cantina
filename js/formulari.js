@@ -12,3 +12,10 @@ for (let i=0; i<comandes.length; i++){
 llista_comandes+='</ul>';
 
 
+
+
+let pantalla =  localStorage.setItem("pantalla", 3);
+
+
+
+
