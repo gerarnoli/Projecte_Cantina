@@ -21,19 +21,18 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            
-            <td class="goods"> <img src="" alt=""/><span> Bocata </span></td>
+        <tr>            
+            <td> <img src="" alt=""/><span> Bocata </span></td>
             <td class="price"> 20 </td>
             <td class="count"> <span class="reduce"> - </span>
             <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>            
                         
         </tr>
         <tr>            
-            <td class="goods"><img src="" alt=""/><span> Cafe </span></td>
+            <td><img src="" alt=""/><span> Cafe </span></td>
             <td class="price"> 10 </td>
             <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>                        
+            <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>                        
         </tr>
         <tr>
             <td class="goods"><img src="" alt=""/><span> Donut </span></td>
@@ -49,6 +48,7 @@
         </tr>
     </tbody>
 </table>     
+<button onclick="location.href='formulari.php'">CheckOut</button>
     
 </form>
 </body>

@@ -5,10 +5,16 @@ window.onload = function () {
 
   //sumar.addEventListener("click", incrementar);
 
-document.getElementsByClassName("add")[0].addEventListener("click", function (){
+document.getElementsByClassName("add")[1].addEventListener("click", function (){
     valor = document.getElementById("cantidad");
     valor.value ++;
     console.log("Prova");
+});
+
+document.getElementsByClassName("reduce")[1].addEventListener("click", function (){
+  valor = document.getElementById("cantidad");
+  valor.value --;
+  console.log("Prova");
 });
 
 //function incrementar () {
