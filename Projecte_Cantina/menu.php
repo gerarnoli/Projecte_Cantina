@@ -11,8 +11,13 @@
 <?php include "header.php"; ?>  
     <h3 class="titol1">Menu Cantina Pedralbes</h3>  
     <div class="principal">
-    <div class="items">
-    </div>
+        <div class="items-caja">
+            <div class="item">
+            <h1> Cafe <h1>
+            <p> 50 $</p>
+            <a href="#" title="anyadir" class="anyadir">Comprar</a>
+            </div>
+        </div>
     </div>
     
 <button onclick="location.href='formulari.php'">CheckOut</button>
