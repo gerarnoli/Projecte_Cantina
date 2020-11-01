@@ -11,20 +11,18 @@
 <?php include "header.php"; ?>  
     <h3 class="titol1">Menu Cantina Pedralbes</h3>  
 
+    <!--
     <table id="cartTable">
     <thead>
         <tr>
-            <th>Items</th>
-            <th>Preu</th>
-            <th>Quantitat</th>
-            <th>Total</th>                   
+                             
         </tr>
     </thead>
     <tbody>
         <tr>            
-            <td> <img src="" alt=""/><span> Bocata </span></td>
+            
             <td class="price"> 20 </td>
-            <td class="count"> <span class="reduce"> - </span>
+            
             <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>            
                         
         </tr>
@@ -47,7 +45,8 @@
                       
         </tr>
     </tbody>
-</table>     
+</table> 
+-->    
 <button onclick="location.href='formulari.php'">CheckOut</button>
     
 </form>
