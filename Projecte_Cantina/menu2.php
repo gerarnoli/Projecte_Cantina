@@ -13,7 +13,7 @@
 
     <h2 class="titol1">Menu Cantina Pedralbes</h2>  
     
-    <div class="principal">
+    
 
     <!--
     <table>

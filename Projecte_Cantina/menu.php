@@ -10,42 +10,11 @@
 <body>
 <?php include "header.php"; ?>  
     <h3 class="titol1">Menu Cantina Pedralbes</h3>  
-
-    <!--
-    <table id="cartTable">
-    <thead>
-        <tr>
-                             
-        </tr>
-    </thead>
-    <tbody>
-        <tr>            
-            
-            <td class="price"> 20 </td>
-            
-            <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>            
-                        
-        </tr>
-        <tr>            
-            <td><img src="" alt=""/><span> Cafe </span></td>
-            <td class="price"> 10 </td>
-            <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>                        
-       
-       d class="goods"><img src="" alt=""/><span> Donut </span></td>
-            <td class="price"> 50 </td> <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>
-                    
-        
-       
-            <td class="goods"><img src="" alt=""/><span> Playstation </span></td>
-            <td class="price"> 600 </td> <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>
-                      
-        
-    </tbody>
-</table> 
--->    
+    <div class="principal">
+    <div class="items">
+    </div>
+    </div>
+    
 <button onclick="location.href='formulari.php'">CheckOut</button>
     
 </form>
