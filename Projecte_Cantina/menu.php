@@ -31,19 +31,18 @@
             <td class="price"> 10 </td>
             <td class="count"><span class="reduce"> - </span>
             <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>                        
-        </tr>
-        <tr>
-            <td class="goods"><img src="" alt=""/><span> Donut </span></td>
+       
+       d class="goods"><img src="" alt=""/><span> Donut </span></td>
             <td class="price"> 50 </td> <td class="count"><span class="reduce"> - </span>
             <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>
                     
-        </tr>
-        <tr>
+        
+       
             <td class="goods"><img src="" alt=""/><span> Playstation </span></td>
             <td class="price"> 600 </td> <td class="count"><span class="reduce"> - </span>
             <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>
                       
-        </tr>
+        
     </tbody>
 </table> 
 -->    
