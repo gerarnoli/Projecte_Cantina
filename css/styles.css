@@ -1,5 +1,5 @@
 .footer{
-    background-color: cornflowerblue;
+    background: transparent;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -7,17 +7,19 @@
     text-align: center;   
     height: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    color: white;
 }
 
 .header{
-    background-color: cornflowerblue;
+    background-color: transparent;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     text-align: left;   
     height: 60px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular';   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';  
+    color: white; 
 }
 
 .titol1{
@@ -126,4 +128,19 @@ input {
     float: right;
     clear: both;
     margin-right: 100px;
+}
+
+.container2 {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#benvingut {
+    text-align: center;
+}
+
+.background{
+    background: linear-gradient(to bottom left, #b2d7ec, #e1d2db);
+    height: 100vh;
 }
