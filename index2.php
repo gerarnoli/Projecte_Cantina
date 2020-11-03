@@ -27,21 +27,21 @@
 
             <!--slides -->
             <div class="carousel-inner">
-                <div class="item active">
+                <div class="item size active">
                     <img src="images/foto4.jpg" alt="comida" style="width:100%;">
                     <div class="carousel-caption">
                         <h3>Precios</h3>
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item size">
                     <img src="images/foto2.jpg" alt="bar" style="width:100%;">
                     <div class="carousel-caption">
                         <h3>Entrada</h3>
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item size">
                            <img src="images/foto3.jpg" alt="bar" style="width:100%;">
                     <div class="carousel-caption">
                         <h3>Bar</h3>
@@ -59,7 +59,14 @@
                 <span class="sr-only">Siguiente</span>
             </a>
         </div>
+
+    
+        <button id="button" onclick="location.href='menu.php'">Menu</button>
+        <button onclick="location.href='pagina_error.php'">Admin</button>
+
     </div>
+
+    
 
     <?php include("footer.php") ?>
 </body>
