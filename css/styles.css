@@ -131,7 +131,7 @@ input {
 }
 
 .container2 {
-    width: 700px;
+    width: 800px;
     height: 500px;
     margin: 0 auto;
 }
@@ -144,3 +144,26 @@ input {
     background: linear-gradient(to bottom left, #b2d7ec, #e1d2db);
     height: 100vh;
 }
+
+.size img {
+    width: 800px;
+    height: 400px;
+    max-height: 400px;
+    background-size: cover;
+}
+
+#button{
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color: transparent;
+    color: blue;
+    border-radius: 30%;
+    size: 20%;
+    font-size: 14px;
+}
+
+#button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+
+
