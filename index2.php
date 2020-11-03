@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="item size">
-                           <img src="images/foto3.jpg" alt="bar" style="width:100%;">
+                    <img src="images/foto3.jpg" alt="bar" style="width:100%;">
                     <div class="carousel-caption">
                         <h3>Bar</h3>
                     </div>
