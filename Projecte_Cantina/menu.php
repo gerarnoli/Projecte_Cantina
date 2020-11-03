@@ -11,13 +11,15 @@
 <?php include "header.php"; ?>  
     <h3 class="titol1">Menu Cantina Pedralbes</h3>  
     <div class="principal">
-        <div class="items-caja">
-            <div class="item">
-            <h1> Cafe <h1>
-            <p> 50 $</p>
-            <a href="#" title="anyadir" class="anyadir">Comprar</a>
-            </div>
-        </div>
+    <div class="col">
+        <div class="card" style="width: 20rem;">
+             <img class="card-img-top" src="https://3.imimg.com/data3/IC/JO/MY-9839190/organic-lemon-250x250.jpg" alt="Card image cap">
+            <div class="card-block">
+            <h4 class="card-title">Lemon</h4>
+            <p class="card-text">Price: $5</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
     </div>
     
 <button onclick="location.href='formulari.php'">CheckOut</button>

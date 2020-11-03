@@ -4,63 +4,71 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="#" />
     <title>Menu</title>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">    
+    <!--<link rel="stylesheet" href="css/styles.css" type="text/css">--> 
+    <style>
+    .items {
+    display: flex;    
+    overflow: none;  
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;  
+    }
+    .item {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    border: 2px dashed red;x
+    }
+    
+    .imagen_item{
+    height: 200px;
+    width: 200px;
+    }
+
+    </style>
     <script type="text/javascript" src="js/script.js"></script>
 
-</head>
-<body>
-<?php include "header.php"; ?>  
+</head>    
+    <body>           
+        <div class="items">                 
+                    <div id="items1">
+                        <div class="item">
+					        <img src="images/bocata.jpg" class="imagen_item">
+					        <h2 class="item_name">Bocata</h2>
+					        <h3 class="precio">6.00</h3>
+					        <button class="boton" data-action="comprar">Comprar</button>
+                        </div>
 
-    <h2 class="titol1">Menu Cantina Pedralbes</h2>  
-    
-    
+                        <div class="item">
+                        <img src="images/coca_cola.jpg" class="imagen_item" src="" alt="cocacola">
+                        <h2 class="item_name">Coke</h2>
+                        <h3 class="precio">8.00</h3>
+                        <button class="boton" data-action="comprar">Comprar</button>
+	                    </div>                 
+                    </div>
 
-    <!--
-    <table>
-    <thead>
-        <tr>
-            <th>Items</th>
-            <th>Preu</th>
-            <th>Quantitat</th>
-            <th>Total</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
+                    <div id="items2">
+                        <div class="item">
+					    <img src="images/croissant.jpg" class="imagen_item" alt="croissant">
+					    <h2 class="item_name">Croissant</h2>
+					    <h3 class="precio"> 12.00</h3>
+					    <button class="boton" data-action="comprar">Comprar</button>
+	                    </div>
+
+                        <div class="item">
+                        <img src="images/paella.jpg" class="imagen_item" alt="paella">
+                        <h2 class="item_name"> Paella </h2>
+                        <h3 class="precio"> 5.00 </h3>
+                        <button class="boton" data-action="comprar">comprar</button>
+                        </div>
+                    </div>
             
-            <script>
-            function update(val) {
-                document.getElementById('res').value=val; 
-            } 
-            </script>
-                        
-        </tr>
-        <tr>            
-            <td><img src="" alt=""/><span> Cafe </span></td>
-            <td class="price"> 10 </td>
-            <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>                        
-        </tr>
-        <tr>
-            <td class="goods"><img src="" alt=""/><span> Donut </span></td>
-            <td class="price"> 50 </td> <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>
+                </div>
+                
+                <div id="carritoDeCompras"> </div>
+                <h2 id=precioTotal>A Pagar: $0</h2>
                     
-        </tr>
-        <tr>
-            <td class="goods"><img src="" alt=""/><span> Playstation </span></td>
-            <td class="price"> 600 </td> <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>
-                      
-        </tr>
-    </tbody>
-</table>    
---> 
-</div>
-<button onclick="location.href='formulari.php'" class="checkout">CheckOut</button>
-
-    
-</form>
-</body>
-<?php include "footer.php"; ?>
+            <button onclick="location.href='formulari.php'" class="checkout">CheckOut</button>    
+       
+    </body>
 </html>
