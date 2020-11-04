@@ -1,5 +1,5 @@
 
-let comandes = localStorage.getItem("comandes", "");
+let comandes = localStorage.getItem("comandes");
 
 let llista_comandes='<ul class=llista>';
 
