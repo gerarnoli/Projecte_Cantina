@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 .footer{
     background: transparent;
-=======
-.footer {
-    position: absolute;
-    background-color: transparent;
->>>>>>> 8db33e8d906790e5bd04ccfda102a25e6b6a05b2
     left: 0;
     bottom: 0;
     width: 100%;
@@ -171,7 +165,6 @@ input {
     background-color: #ffffff;
 }
 
-<<<<<<< HEAD
 .logo{
     width: 50px;
     height: 30px;
@@ -180,31 +173,4 @@ input {
 #margins{
     margin-top: 50px;
     margin-bottom: 50px;
-=======
-.a5{
-    width: 40%;
-    height: 60%;
-}
-
-div.productos{
-    float: left;
-    display: flex;
-    border: 1px solid red;
-    color: black;
-}
-div.producto{
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid blue;
-}
-div.listafinal{
-    float: left;
-    margin: 10px;   
-}
-#preciofinal {
-    color: black;
-}
-h2.formulari, label.formulari {
-    color: black;
->>>>>>> 8db33e8d906790e5bd04ccfda102a25e6b6a05b2
 }

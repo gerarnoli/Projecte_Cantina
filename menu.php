@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     </style>
     <script type="text/javascript" src="js/script.js"></script>
-<<<<<<< HEAD
     <style>
     .productos{
         float: left;
@@ -24,8 +23,6 @@
         margin: 10px;        
     }
     </style>
-=======
->>>>>>> 8db33e8d906790e5bd04ccfda102a25e6b6a05b2
 </head>    
 <body class="background">
     <?php include("header.php") ?>
