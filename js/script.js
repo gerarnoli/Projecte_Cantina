@@ -16,6 +16,8 @@ function tanquemLlista() {
     return (location.href='formulari.php');
 }
 
+/*
 function actualitzarCarro () {
     document.getElementById("listafinal").innerHTML = localStorage.getItem("comandes");
 }
+*/
