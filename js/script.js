@@ -1,5 +1,5 @@
 
-let llista_comandes='<ul';
+let llista_comandes='<ul>';
 
 function afegirCarro(input) {
     let tipus = input.getAttribute("id");

@@ -10,7 +10,7 @@
     <?php include "header.php";?>  
     <br>
     <h1 style="color: black">Confirmació</h1>
-    <?php include "footer.php";?>
+    <?php include "footer.php"?>
 </body>
 </html>
 
