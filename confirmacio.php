@@ -6,7 +6,7 @@
     <title>Formulari</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body>
+<body class="background">
     <?php include "header.php"?>  
     <br>
     <h1 style="color: black">Confirmació</h1>
