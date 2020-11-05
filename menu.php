@@ -1,56 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">        
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#" />
     <title>Menu</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script type="text/javascript" src="js/script.js"></script>
-
-</head>
-<body>
-<?php include "header.php"; ?>  
-    <h3 class="titol1">Menu Cantina Pedralbes</h3>  
-
-    <table id="cartTable">
-    <thead>
-        <tr>
-            <th>Items</th>
-            <th>Preu</th>
-            <th>Quantitat</th>
-            <th>Total</th>                   
-        </tr>
-    </thead>
-    <tbody>
-        <tr>            
-            <td> <img src="" alt=""/><span> Bocata </span></td>
-            <td class="price"> 20 </td>
-            <td class="count"> <span class="reduce"> - </span>
-            <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>            
-                        
-        </tr>
-        <tr>            
-            <td><img src="" alt=""/><span> Cafe </span></td>
-            <td class="price"> 10 </td>
-            <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" id="cantidad" name="cantidad"/><span class="add" name="add"> + </span></td>                        
-        </tr>
-        <tr>
-            <td class="goods"><img src="" alt=""/><span> Donut </span></td>
-            <td class="price"> 50 </td> <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>
+    <style>    
+    </style>
+    <script type="text/javascript" src="js/script.js"></script>    
+</head>    
+    <body>
+            <div id="productos" class="productos">
+ 
+                <div id="producto" class="producto"> <img src="images/bocata.jpg" width="200" height="200">
+                <h1> Bocata </h1>
+                <p> 5 €</p>  
+                <input class="numero" type="number" value="" max="5" min="0">
+                <input type="button" value="Pal Carro"  id="bocata">           
+                </div>
+                <div id="producto" class="producto"> <img src="images/croissant.jpg" width="200" height="200">
+                <p> Croissant </p>
+                <p> 3 €</p>
+                <input class="numero"  type="number" value="" max="5" min="0">  
+                <input type="button" value="Pal Carro"  id="croissant"> 
+                </div>
+                <div id="producto" class="producto"> <img src="images/coca_cola.jpg" width="200" height="200">
+                <p> Coca Cola</p>
+                <p> 2 €</p> 
+                <input type="number" value="" max="5" min="0">   
+                <input type="button" value="Pal Carro"  id="coca_cola"> 
+                </div>
+                <div id="producto" class="producto"> <img src="images/taza_cafe.jpg" width="200" height="200">
+                <p> Cafe </p>
+                <p> 5 €</p>  
+                <input type="number" value="" max="5" min="0"> 
+                <input type="button" value="Pal Carro"  id="taza_cafe">  
+                </div>             
+                
+            </div>
+            <div id="listafinal" class="listafinal"> 
+                <h2 id=preciofinal> A Pagar </h2>
+                <button onclick="location.href='formulari.php'" class="checkout">CheckOut</button>   
+            </div>
+            
                     
-        </tr>
-        <tr>
-            <td class="goods"><img src="" alt=""/><span> Playstation </span></td>
-            <td class="price"> 600 </td> <td class="count"><span class="reduce"> - </span>
-            <input class="count-input" type="text" value="1"/><span class="add"> + </span></td>
-                      
-        </tr>
-    </tbody>
-</table>     
-<button onclick="location.href='formulari.php'">CheckOut</button>
-    
-</form>
-</body>
-<?php include "footer.php"; ?>
+    </body>
 </html>
