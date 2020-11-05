@@ -1,12 +1,8 @@
+window.onload = function () {
 
-let comandes = localStorage.getItem("comandes");
 
-let llista_comandes='<ul class=llista>';
+    document.getElementById("seleccio").innerHTML = localStorage.getItem("comandes");
 
-for (let i=0; i<comandes.length; i++){
-    llista_comandes += `<li>${comandes[i]}</li>` + '<br>';
+    console.log("hola");
+
 }
-llista_comandes+='</ul>';
-
-
-document.getElementsByClassName("seleccio").innerHTML = llista_comandes;

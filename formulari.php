@@ -10,11 +10,11 @@
     <?php include "header.php";?>
     <br>
     <div class="container">
-        <div class="seleccio">
-            <h2>Llista de comandes<h2>
+        <div id="seleccio">
+            <h2 id="llista_comandes">Llista de comandes<h2>
         </div>
         <div class="form">
-            <form action="process.php" method="POST"></form>
+            <form action="confirmacio.php" method="POST"></form>
                     <h2 class="formulari">Introdueix les teves dades</h2>
                     <label class="formulari" for="nom">Nom:</label>
                     <input type="text"><br><br>
@@ -24,7 +24,7 @@
                     <input type="text"><br><br>
             </form>
             <br>
-            <button onclick="location.href='confirmacio.php'">Enviar</button>
+            <input type='submit' value='Enviar'>
         </div>
     </div>
     <script src="js/formulari.js"></script>    
