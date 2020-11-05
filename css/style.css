@@ -163,14 +163,24 @@ input {
     margin-right: 5%;
     background-color: transparent;
     color: blue;
-    border-radius: 30%;
+    border-radius: 10%;
     size: 20%;
     font-size: 14px;
 }
 
 #button:hover{
-    color: #1883ba;
+    color: black;
     background-color: #ffffff;
+}
+
+.logo{
+    width: 50px;
+    height: 30px;
+}
+
+#margins{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .a5{
@@ -185,11 +195,13 @@ div.productos{
     color: black;
 }
 
+
 div.producto{
     margin: 10px;
     padding: 10px;
     border: 1px solid blue;
 }
+
 
 div.listafinal{
     float: left;
@@ -202,8 +214,10 @@ div.listafinal{
 
 h2.formulari, label.formulari {
     color: black;
+
 }
 
 #seleccio {
     color: black;
+
 }

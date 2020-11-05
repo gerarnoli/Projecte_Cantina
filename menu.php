@@ -39,6 +39,5 @@
         <h2 id=preciofinal>A Pagar</h2>
         <button onclick="tanquemLlista()" class="checkout">CheckOut</button>   
     </div>
-    <?php include("footer.php") ?>                    
 </body>
 </html>

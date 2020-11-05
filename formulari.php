@@ -6,7 +6,7 @@
     <title>Formulari</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body>
+<body class="background">
     <?php include "header.php";?>
     <br>
     <div class="container">
@@ -29,7 +29,7 @@
     </div>
     <script src="js/formulari.js"></script>    
     <br>
-    <?php include "footer.php"?>
+    <?php include "footer.php";?>
 </body>
 </html>
 
