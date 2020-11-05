@@ -10,10 +10,8 @@
     <?php $_SESSION["pantalla"] = 5; ?>
     <?php include "header.php"; ?>
     <div class=error>
-        <center><?php if (isset($_COOKIE)) {echo "<h3>Ja has fet una comanda avui, torna demà :-)</h3>";} ?></center>
+        <?php if (isset($_COOKIE)) {echo "<h3>Ja has fet una comanda avui, torna demà :-)</h3>";} ?>
     </div>
     <?php include "footer.php";?>
 </body>
 </html>
-
-

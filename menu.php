@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="#" />
     <title>Menu</title>
-    <!--<link rel="stylesheet" href="css/styles.css" type="text/css">--> 
-    <style>    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     </style>
     <script type="text/javascript" src="js/script.js"></script>
-    <style> 
+    <style>
     .productos{
         float: left;
         display: flex;
@@ -35,19 +34,19 @@
                 <input type="button" value="Pal Carro"  id="bocata">           
                 </div>
                 <div id="producto" class="producto"> <img src="images/croissant.jpg" width="200" height="200">
-                <p> Croissant </p>
+                <h1> Croissant </h1>
                 <p> 3 €</p>
                 <input class="numero"  type="number" value="" max="5" min="0">  
                 <input type="button" value="Pal Carro"  id="croissant"> 
                 </div>
                 <div id="producto" class="producto"> <img src="images/coca_cola.jpg" width="200" height="200">
-                <p> Coca Cola</p>
+                <h1> Coca Cola</h1>
                 <p> 2 €</p> 
                 <input type="number" value="" max="5" min="0">   
                 <input type="button" value="Pal Carro"  id="coca_cola"> 
                 </div>
                 <div id="producto" class="producto"> <img src="images/taza_cafe.jpg" width="200" height="200">
-                <p> Cafe </p>
+                <h1> Cafe </h1>
                 <p> 5 €</p>  
                 <input type="number" value="" max="5" min="0"> 
                 <input type="button" value="Pal Carro"  id="taza_cafe">  

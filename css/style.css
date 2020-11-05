@@ -1,20 +1,20 @@
-.footer{
-    background: transparent;
+.footer {
+    background-color: cornflowerblue;
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;   
+    text-align: center;
     height: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     color: white;
 }
 
-.header{
-    background-color: transparent;
+.header {
+    background-color: cornflowerblue;
     left: 0;
     top: 0;
     width: 100%;
-    text-align: left;   
+    text-align: left;
     height: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';  
     color: white; 
@@ -103,10 +103,11 @@ td {
 }
 
 .error {
-    background-color: lightblue;
+    background-color: cornflowerblue;
     margin-left: 100px;
     margin-top: 100px;
     width: 600px;
+    text-align: center;
 }
 
 .seleccio {
@@ -120,6 +121,10 @@ td {
     border-style: solid;
     border-color: cornflowerblue;
     padding: 20px;
+}
+
+h2.formulari, label.formulari {
+    color: black;
 }
 
 input {
@@ -164,3 +169,4 @@ input {
     color: #1883ba;
     background-color: #ffffff;
 }
+
