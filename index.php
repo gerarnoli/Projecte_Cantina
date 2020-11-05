@@ -62,7 +62,7 @@
 
     
         <button id="button" onclick="location.href='menu.php'">Menu</button>
-        <button onclick="location.href='admin.php'">Admin</button>
+        <button onclick="location.href='admin/admin.php'">Admin</button>
 
     </div>
 
