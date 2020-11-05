@@ -4,28 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulari</title>
-    
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <!--
-    <style>
-        h2, label {
-            color: black;
-        }
-        .header {
-            background-color: cornflowerblue;
-            left: 0;
-            top: 0;
-            width: 100%;
-            text-align: left;   
-            height: 60px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular';  
-            color: white; 
-        }
-    </style>
-    -->
 </head>
 <body>
-    <?php $_SESSION["pantalla"] = 3; ?>
     <?php include "header.php";?>
     <br>
     <div class="container">
