@@ -6,7 +6,7 @@
     <title>Error</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
-<body>
+<body class="background">
     <?php $_SESSION["pantalla"] = 5; ?>
     <?php include "header.php"; ?>
     <div class=error>
