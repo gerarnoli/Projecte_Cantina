@@ -115,8 +115,9 @@ td {
     width: 600px;
 }
 
-.seleccio {
-    color: black;
+#seleccio {
+    color: white;
+    font-size: large;
     border-style: solid;
     border-color: cornflowerblue;
     padding: 20px;

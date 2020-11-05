@@ -11,7 +11,6 @@
     <br>
     <div class="container">
         <div id="seleccio">
-            <h2>Llista de comandes<h2>
         </div>
         <div class="form">
             <form action="process.php" method="POST"></form>
@@ -32,5 +31,3 @@
     <?php include "footer.php";?>
 </body>
 </html>
-
-
