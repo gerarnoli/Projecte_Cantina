@@ -4,26 +4,10 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="#" />
     <title>Menu</title>
-    <!--<link rel="stylesheet" href="css/styles.css" type="text/css">--> 
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <style>    
     </style>
-    <script type="text/javascript" src="js/script.js"></script>
-    <style> 
-    .productos{
-        float: left;
-        display: flex;
-        border: 1px solid red;
-    }
-    .producto{
-        margin: 10px;
-        padding: 10px;
-        border: 1px solid blue;
-    }
-    .listafinal{
-        float: left;
-        margin: 10px;        
-    }
-    </style>
+    <script type="text/javascript" src="js/script.js"></script>    
 </head>    
     <body>
             <div id="productos" class="productos">
