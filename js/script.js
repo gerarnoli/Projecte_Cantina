@@ -13,6 +13,8 @@ function tanquemLlista() {
 
     localStorage.setItem("comandes", llista_comandes);
 
+    console.log(llista_comandes);
+
     return (location.href='formulari.php');
 }
 

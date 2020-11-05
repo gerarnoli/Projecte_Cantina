@@ -1,6 +1,3 @@
-window.onload = function () {
 
-
-    document.getElementById("seleccio").innerHTML = localStorage.getItem("comandes");
+document.getElementById("seleccio").innerHTML = localStorage.getItem("comandes");
     
-}
