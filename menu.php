@@ -12,6 +12,7 @@
         float: left;
         display: flex;
         border: 1px solid red;
+        color: black;
     }
     .producto{
         margin: 10px;

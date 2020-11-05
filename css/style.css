@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 .footer{
     background: transparent;
+=======
+.footer {
+    background-color: cornflowerblue;
+>>>>>>> 32ce50f6a026748d3a1d1eba85c67cecbd0cf6d7
     left: 0;
     bottom: 0;
     width: 100%;
