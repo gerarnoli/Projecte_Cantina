@@ -2,6 +2,11 @@ window.onload = function () {
 
     document.getElementById('bocata').addEventListener('click', function() {
         console.log("Bocata");
+
+        for (let i = 0; i < document.getElementById('bocata').length; i++) {
+            const element = array[i];           
+        }
+
     });
 
     document.getElementById('croissant').addEventListener('click', function() {
@@ -16,22 +21,10 @@ window.onload = function () {
         console.log("Cafelico");
     });
 
-    
-   
-    function lista(producto) {
 
-        //console.log(producto);  
+
     
-        // console.log(producto);
-        // for (let i = 0; i < prueba.length; i++) {
-        // let a = prueba[i];
-        // let id = a.getAttribute("name");
-        // let id2 = a.getAttribute("value");
-        // console.log(id);
-        // console.log(id2);      
-        
-        
-    }   
+     
 
   
 }
