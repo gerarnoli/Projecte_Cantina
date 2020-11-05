@@ -24,7 +24,7 @@
                     <input type="text"><br><br>
             </form>
             <br>
-            <button onclick="location.href='verificacio.php'">Enviar</button>
+            <button onclick="location.href='confirmacio.php'">Enviar</button>
         </div>
     </div>
     <script src="js/formulari.js"></script>    
