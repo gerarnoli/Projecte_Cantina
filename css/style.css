@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 .footer{
     background: transparent;
-=======
-.footer {
-    background-color: cornflowerblue;
->>>>>>> 32ce50f6a026748d3a1d1eba85c67cecbd0cf6d7
     left: 0;
     bottom: 0;
     width: 100%;
@@ -160,17 +155,22 @@ input {
     margin-right: 5%;
     background-color: transparent;
     color: blue;
-    border-radius: 30%;
+    border-radius: 10%;
     size: 20%;
     font-size: 14px;
 }
 
 #button:hover{
-    color: #1883ba;
+    color: black;
     background-color: #ffffff;
 }
 
-.a5{
-    width: 40%;
-    height: 60%;
+.logo{
+    width: 50px;
+    height: 30px;
+}
+
+#margins{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
