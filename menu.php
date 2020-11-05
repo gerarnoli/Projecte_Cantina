@@ -32,36 +32,36 @@
             <div id="producto" class="producto"> <img src="images/bocata.jpg" width="200" height="200">
                 <h1> Bocata </h1>
                 <p> 5 €</p>  
-                <input class="numero" type="number" value="" max="5" min="0">
-                <input type="button" value="Pal Carro"  id="bocata">           
+                <input id="bocata" type="number" max="5" min="0">
+                <button onclick="afegirCarro(bocata);">Pal Carro</button>       
             </div>
 
             <div id="producto" class="producto"> <img src="images/croissant.jpg" width="200" height="200">
                 <h1> Croissant </h1>
                 <p> 3 €</p>
-                <input class="numero"  type="number" value="" max="5" min="0">  
-                <input type="button" value="Pal Carro"  id="croissant"> 
+                <input id="croissant" type="number" max="5" min="0">  
+                <button onclick="afegirCarro(croissant);">Pal Carro</button>
             </div>
 
             <div id="producto" class="producto"> <img src="images/coca_cola.jpg" width="200" height="200">
                 <h1> Coca Cola</h1>
                 <p> 2 €</p> 
-                <input type="number" value="" max="5" min="0">   
-                <input type="button" value="Pal Carro"  id="coca_cola"> 
+                <input id="coca_cola" type="number" max="5" min="0">   
+                <button onclick="afegirCarro(coca_cola);">Pal Carro</button>
             </div>
 
             <div id="producto" class="producto"> <img src="images/taza_cafe.jpg" width="200" height="200">
                 <h1> Cafe </h1>
                 <p> 5 €</p>  
-                <input type="number" value="" max="5" min="0"> 
-                <input type="button" value="Pal Carro"  id="taza_cafe">  
+                <input id="tassa_cafe" type="number" max="5" min="0"> 
+                <button onclick="afegirCarro(tassa_cafe);">Pal Carro</button>
             </div>             
             
         </div>
 
         <div id="listafinal" class="listafinal"> 
             <h2 id=preciofinal> A Pagar </h2>
-            <button onclick="location.href='formulari.php'" class="checkout">CheckOut</button>   
+            <button onclick="tanquemLlista()" class="checkout">CheckOut</button>   
         </div>
 
     </div>
