@@ -7,23 +7,6 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     </style>
     <script type="text/javascript" src="js/script.js"></script>
-    <style>
-    .productos{
-        float: left;
-        display: flex;
-        border: 1px solid red;
-        color: black;
-    }
-    .producto{
-        margin: 10px;
-        padding: 10px;
-        border: 1px solid blue;
-    }
-    .listafinal{
-        float: left;
-        margin: 10px;   
-    }
-    </style>
 </head>    
 <body>
     <?php include("header.php") ?>

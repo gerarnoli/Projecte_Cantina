@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-.footer{
-    background: transparent;
-=======
 .footer {
-    background-color: cornflowerblue;
->>>>>>> 32ce50f6a026748d3a1d1eba85c67cecbd0cf6d7
+    background-color: transparent;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -173,4 +168,20 @@ input {
 .a5{
     width: 40%;
     height: 60%;
+}
+
+div.productos{
+    float: left;
+    display: flex;
+    border: 1px solid red;
+    color: black;
+}
+div.producto{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+div.listafinal{
+    float: left;
+    margin: 10px;   
 }
