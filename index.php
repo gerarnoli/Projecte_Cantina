@@ -10,7 +10,7 @@
     <?php include "header.php";?>
 
     <button onclick="location.href='menu.php'">Menu</button>
-    <button onclick="location.href='pagina_error.php'">Admin</button>
+    <button onclick="location.href='/projecte_cantina/admin/admin.php'">Admin</button>
 
 
     <?php include "footer.php";?>    
