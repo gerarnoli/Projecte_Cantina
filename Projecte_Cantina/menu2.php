@@ -10,7 +10,6 @@
     <script type="text/javascript" src="js/script.js"></script>
 
     <style> 
-
     .productos{
         float: left;
         display: flex;
@@ -27,11 +26,6 @@
         float: left;
         margin: 10px;        
     }
-
-
-
-
-
     </style>
 
 </head>    
@@ -39,33 +33,33 @@
             <div id="productos" class="productos">
  
                 <div id="producto" class="producto"> <img src="images/bocata.jpg" width="200" height="200">
-                <p> Bocata </p>
+                <h1> Bocata </h1>
                 <p> 5 €</p>  
-                <input type="number" value="" max="5">              
+                <input class="numero" type="number" value="" max="5" min="0">
+                <input type="button" value="Pal Carro"  id="bocata">           
                 </div>
 
                 <div id="producto" class="producto"> <img src="images/croissant.jpg" width="200" height="200">
                 <p> Croissant </p>
                 <p> 3 €</p>
-                <input type="number" value="" max="5">  
+                <input class="numero"  type="number" value="" max="5" min="0">  
+                <input type="button" value="Pal Carro"  id="croissant"> 
                 </div>
 
                 <div id="producto" class="producto"> <img src="images/coca_cola.jpg" width="200" height="200">
                 <p> Coca Cola</p>
                 <p> 2 €</p> 
-                <input type="number" value="" max="5">   
+                <input type="number" value="" max="5" min="0">   
+                <input type="button" value="Pal Carro"  id="coca_cola"> 
                 </div>
 
                 <div id="producto" class="producto"> <img src="images/taza_cafe.jpg" width="200" height="200">
                 <p> Cafe </p>
                 <p> 5 €</p>  
-                <input type="number" value="" max="5">  
-                </div>
-           
-
+                <input type="number" value="" max="5" min="0"> 
+                <input type="button" value="Pal Carro"  id="taza_cafe">  
+                </div>             
                 
-
-
             </div>
 
             <div id="listafinal" class="listafinal"> 
