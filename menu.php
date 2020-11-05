@@ -26,6 +26,7 @@
 </head>    
 <body class="background">
     <?php include("header.php") ?>
+    <div class="container2">
         <div id="productos" class="productos">
 
             <div id="producto" class="producto"> <img src="images/bocata.jpg" width="200" height="200">
@@ -62,7 +63,9 @@
             <h2 id=preciofinal> A Pagar </h2>
             <button onclick="location.href='formulari.php'" class="checkout">CheckOut</button>   
         </div>
-  
+
+    </div>
+    
     <?php include("footer.php") ?>                    
 
 </body>
