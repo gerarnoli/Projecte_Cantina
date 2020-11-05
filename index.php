@@ -63,8 +63,8 @@
         </div>
 
     
-        <button id="button" onclick="location.href='menu2.php'">Per encarregar</button>
-        <button id="button"onclick="location.href='pagina_error.php'">Admin</button>
+        <button id="button" onclick="location.href='menu.php'">Per encarregar</button>
+        <button id="button"onclick="location.href='admin/admin.php'">Admin</button>
 
     </div>
 
