@@ -16,6 +16,7 @@
     <?php include("header.php") ?>
 
     <h2 id="benvingut">Benvingut a la Cantina Pedralbes</h2>
+    <br/>
     <div class="container2">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -58,11 +59,12 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Siguiente</span>
             </a>
+        
         </div>
 
     
-        <button id="button" onclick="location.href='menu.php'">Menu</button>
-        <button onclick="location.href='pagina_error.php'">Admin</button>
+        <button id="button" onclick="location.href='menu2.php'">Per encarregar</button>
+        <button id="button"onclick="location.href='pagina_error.php'">Admin</button>
 
     </div>
 

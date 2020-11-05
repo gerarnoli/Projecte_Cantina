@@ -155,12 +155,17 @@ input {
     margin-right: 5%;
     background-color: transparent;
     color: blue;
-    border-radius: 30%;
+    border-radius: 10%;
     size: 20%;
     font-size: 14px;
 }
 
 #button:hover{
-    color: #1883ba;
+    color: black;
     background-color: #ffffff;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
 }
