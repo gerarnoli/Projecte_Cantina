@@ -10,7 +10,7 @@
     <?php include "header.php";?>
     <br>
     <div class="container">
-        <div id="seleccio">
+        <div id="seleccio" class>
             <h2 id="llista_comandes">Llista de comandes<h2>
         </div>
         <div class="form">

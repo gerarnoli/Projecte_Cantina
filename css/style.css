@@ -128,6 +128,7 @@ td {
     border-style: solid;
     border-color: cornflowerblue;
     padding: 20px;
+    background-color: #00adef;
 }
 
 input {
@@ -195,13 +196,11 @@ div.productos{
     color: black;
 }
 
-
 div.producto{
     margin: 10px;
     padding: 10px;
     border: 1px solid blue;
 }
-
 
 div.listafinal{
     float: left;
@@ -218,6 +217,8 @@ h2.formulari, label.formulari {
 }
 
 #seleccio {
-    color: black;
-
+    border-style: solid;
+    border-color: cornflowerblue;
+    padding: 20px;
+    background-color: #00adef;
 }
