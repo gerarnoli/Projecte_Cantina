@@ -7,7 +7,7 @@
     text-align: center;   
     height: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    color: white;
+    color: black;
 }
 
 .header{
@@ -18,7 +18,7 @@
     text-align: left;   
     height: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';  
-    color: white; 
+    color: black; 
 }
 
 .titol1{
@@ -117,7 +117,7 @@ td {
 }
 
 #seleccio {
-    color: white;
+    color: black;
     font-size: large;
     border-style: solid;
     border-color: cornflowerblue;
@@ -199,7 +199,7 @@ input {
 }
 
 #comandes {
-    color: white;
+    color: black;
     font-size: large;
     border-style: solid;
     border-color: cornflowerblue;
