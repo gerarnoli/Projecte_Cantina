@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulari</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/formulari.js"></script>  
 </head>
 <body class="background">
     <?php include "header.php";?>
@@ -26,7 +27,6 @@
             <button onclick="validar()">Enviar</button>
         </div>
     </div>
-    <script src="js/formulari.js"></script>    
     <br>
     <?php include "footer.php";?>
 </body>

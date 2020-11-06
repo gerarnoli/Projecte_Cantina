@@ -12,8 +12,14 @@
     <h1 style="color: black">Confirmació</h1>
     
     <?php
+
+        echo "<h2>Dades</h2>";
+        echo $_POST['nom'];
+        echo $_POST['cognoms'];
+        echo $_POST['email'];
+
         $registre = $_POST['nom'] . ", " . $_POST['cognoms'] . ", " . $_POST['email'];
-        $myfile = fopen ("log/logs.txt", "W") or die ("No es pot obrir el fitxer");
+        $myfile = fopen ("logs.txt", "W") or die ("No es pot obrir el fitxer");
         fwrite($registre);
         fclose($myfile);
     ?>
