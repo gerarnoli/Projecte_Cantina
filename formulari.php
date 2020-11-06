@@ -20,10 +20,10 @@
                     <label class="formulari" for="cognom">Cognom:</label>
                     <input type="text"><br><br>
                     <label class="formulari" for="email">Email:</label>
-                    <input type="text"><br><br>
+                    <input type="text" id="email"><br><br>
             </form>
             <br>
-            <button onclick="location.href='confirmacio.php'">Enviar</button>
+            <button onclick="validar()">Enviar</button>
         </div>
     </div>
     <script src="js/formulari.js"></script>    
