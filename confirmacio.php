@@ -10,7 +10,7 @@
 <body class="background">
     <?php include "header.php"?>  
     <br>
-    <h1>Confirmació</h1>
+    <h2>Perfecte! S'ha registrat la teva comanda.</h2>
 
     <div id="container_conf">
         <div id="comandes"></div>
@@ -24,8 +24,6 @@
     fwrite($registre);
     fclose($myfile);
     -->
-
-    <p>Perfecte! S'ha registrat la teva comanda.</p>
 
     <?php include "footer.php"?>
 </body>
