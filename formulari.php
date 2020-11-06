@@ -11,15 +11,14 @@
     <?php include "header.php";?>
     <br>
     <div class="container">
-        <div id="seleccio">
-        </div>
+        <div id="seleccio"></div>
         <div class="form">
             <form action="process.php" method="POST"></form>
                     <h2 class="formulari">Introdueix les teves dades</h2>
                     <label class="formulari" for="nom">Nom:</label>
-                    <input type="text"><br><br>
+                    <input type="text" id="nom"><br><br>
                     <label class="formulari" for="cognom">Cognom:</label>
-                    <input type="text"><br><br>
+                    <input type="text" id="cognom"><br><br>
                     <label class="formulari" for="email">Email:</label>
                     <input type="text" id="email"><br><br>
             </form>

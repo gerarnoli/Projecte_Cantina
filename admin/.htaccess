@@ -1,5 +1,5 @@
 AuthType Basic
 AuthName "Necessites autorització per entrar"
 AuthBasicProvider file
-AuthUserFile "/var/www/html/projecte_cantina/admin/.htpasswd"
+AuthUserFile "/home/a16pednieper/public_html/projecte_cantina/admin/.htpasswd"
 Require valid-user
