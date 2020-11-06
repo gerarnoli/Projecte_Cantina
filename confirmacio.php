@@ -13,8 +13,8 @@
     
     <?php
         $registre = $_POST['nom'] . ", " . $_POST['cognoms'] . ", " . $_POST['email'];
-        $myfile = fopen ("log/logs.txt", "a") or die ("No es pot obrir el fitxer");
-        fwrite($myfile, "\n" . $registre);
+        $myfile = fopen ("log/logs.txt", "W") or die ("No es pot obrir el fitxer");
+        fwrite($registre);
         fclose($myfile);
     ?>
 
