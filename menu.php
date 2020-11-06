@@ -5,6 +5,7 @@
     <link rel="shortcut icon" href="#" />
     <title>Menu</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="shortcut icon" href="#" />
     </style>
     <script type="text/javascript" src="js/script.js"></script>
     <style>

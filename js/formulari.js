@@ -3,13 +3,11 @@ window.onload = function() {
 
     document.getElementById("seleccio").innerHTML += localStorage.getItem("comandes");
 }
-
 let llista_dades='<ul>';
 
 function validar() {
     email = document.getElementById("email").value;
     if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)) {
-
         let nom = document.getElementById("nom").value;
         let cognom = document.getElementById("cognom").value;
         let email = document.getElementById("email").value;
@@ -23,7 +21,7 @@ function validar() {
 
         return (location.href='confirmacio.php');
     } else {
-        alert("L'adreça email és incorrecta")
+        alert("L'adreça email és incorrecta");
         return (false);
     }
 }

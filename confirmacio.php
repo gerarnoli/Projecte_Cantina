@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirmació</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="shortcut icon" href="#" />
     <script src="js/confirmacio.js"></script>
 </head>
 <body class="background">
-    <?php include "header.php"?>  
+    <?php include "header.php";?>
     <br>
     <h2>Perfecte! S'ha registrat la teva comanda.</h2>
 
