@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulari</title>
+    <title>Confirmació</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="js/confirmacio.js"></script>
 </head>
@@ -12,7 +12,11 @@
     <br>
     <h1>Confirmació</h1>
 
-    <div id="dades"></div>
+    <div id="container_conf">
+        <div id="comandes"></div>
+
+        <div id="dades"></div>
+    </div>
 
     <!--
     $registre = $_POST['nom'] . ", " . $_POST['cognoms'] . ", " . $_POST['email'];

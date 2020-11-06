@@ -187,3 +187,26 @@ input {
     height: 100%;
     margin: 0 auto;
 }
+
+#container_conf {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-column-gap: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#comandes {
+    color: white;
+    font-size: large;
+    border-style: solid;
+    border-color: cornflowerblue;
+    padding: 20px;
+}
+
+#dades {
+    border-style: solid;
+    border-color: cornflowerblue;
+    padding: 20px;
+}
