@@ -10,11 +10,8 @@ function afegirCarro(input) {
 
 function tanquemLlista() {
     llista_comandes+='</ul>';
-
     localStorage.setItem("comandes", llista_comandes);
-
     console.log(llista_comandes);
-
     return (location.href='formulari.php');
 }
 
