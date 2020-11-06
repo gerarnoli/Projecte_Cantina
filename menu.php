@@ -26,6 +26,9 @@
 </head>    
 <body class="background">
     <?php include("header.php") ?>
+
+    <h2 id="benvingut">Menú</h2>
+
     <div class="container2">
         <div id="productos" class="productos">
 

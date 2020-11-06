@@ -9,6 +9,9 @@
 </head>
 <body class="background">
     <?php include "header.php";?>
+
+    <h2 id="benvingut">Finalitzar la compra</h2>
+
     <br>
     <div class="container">
         <div id="seleccio"></div>
